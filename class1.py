@@ -1,5 +1,4 @@
 # class1.py 
-
 #1)클래스 정의
 class Person:
     #초기화 메서드
@@ -10,5 +9,9 @@ class Person:
 
 #2)인스턴스 생성
 p1 = Person() 
+p2 = Person() 
+p1.name = "전우치"
 p1.print() 
+p2.print() 
+
 
