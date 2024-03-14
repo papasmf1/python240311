@@ -4,6 +4,7 @@ import urllib.request
 #크롤링
 from bs4 import BeautifulSoup
 
+
 url = "https://www.daangn.com/fleamarket/" 
 page = urllib.request.urlopen(url).read() 
 
