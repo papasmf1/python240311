@@ -2,7 +2,7 @@ import  openpyxl  as  op
 
 #샘플로 제공된 파일을 오픈한다. 
 wb = op.load_workbook("sample10.xlsx") 
-#첫번째 시트 참조 가져오기 
+#마지막으로 활성화된 시트를 가져온다
 ws = wb.active
 
 #방법 1 : Sheet의 Cell 속성 사용하기
